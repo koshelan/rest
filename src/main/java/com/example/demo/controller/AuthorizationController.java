@@ -32,5 +32,11 @@ public class AuthorizationController {
     public ResponseEntity<String> handleICE(InvalidCredentials e) {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getLocalizedMessage());
     }
+    @GetMapping("/hello")
+    public String gethello() {
+        return "hello from app";
+    }
+
+
 
 }
