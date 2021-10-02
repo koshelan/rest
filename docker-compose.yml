@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  dock_rest_app:
+    build: .
+    ports:
+      - "8080:8080"
