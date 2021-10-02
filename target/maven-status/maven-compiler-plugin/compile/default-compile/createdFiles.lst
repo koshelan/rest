@@ -1,0 +1,12 @@
+com\example\demo\DemoApplication.class
+com\example\demo\config\WebConfig$UserResolver.class
+com\example\demo\model\Authorities.class
+com\example\demo\model\UserArgument.class
+com\example\demo\model\User.class
+com\example\demo\repository\UserRepository.class
+com\example\demo\controller\AuthorizationController.class
+com\example\demo\config\WebConfig.class
+com\example\demo\exception\DemoExceptionHandler.class
+com\example\demo\exception\InvalidCredentials.class
+com\example\demo\exception\UnauthorizedUser.class
+com\example\demo\service\AuthorizationService.class
